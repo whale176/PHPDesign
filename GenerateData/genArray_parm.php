@@ -3,27 +3,10 @@
 $x = $argv[1];
 $y = $argv[2];
 
-//$argv
 $x_count = 0;
 $y_count = 0;
 
-/**
- * 
- * $ php genArray1.php 3 2
-array(
-"0" => array(
-    "0" => "ee692c",
-    "1" => "812a76"
-    ),
-"1" => array(
-    "0" => "f66eb6",
-    "1" => "3e7c64"
-    ),
-"2" => array(
-    "0" => "681fc3",
-    "1" => "5a17a8"
-    ));
- */
+
 echo "array(\n";
 for($i = 0; $i < $x; $i++){
     echo addqutoStr($i)." => array(";
@@ -51,6 +34,7 @@ for($i = 0; $i < $x; $i++){
 }
 
 echo ");";
+
 
 function nextLine(){
     echo "\n";
