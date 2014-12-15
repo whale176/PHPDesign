@@ -2,18 +2,16 @@ PHPDesign - GenerateData
 =========
 # genArray_parm.php
 
-## Usage
-Use php command-line: `php genArray1.php argv[1] argv[2]`
-Then, it will generate array[][]
+### Usage
+Use php command-line mode and type: `php genArray1.php {$argv[1]} ${argv[2]}`. Then, it will generate array[][].
 
-## Notice
+### Notice
 argv[1] and argv[2] only allow integer
 
-## Example:
-
-```
+### Example:
 $ php genArray1.php argv[1] argv[2]
 
+```
 array(
 "0" => array(
     "0" => "ee692c",
